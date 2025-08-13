@@ -1,6 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import skiftThumbnail from "@assets/Rendering-of-Aloft-istanbul-Karakoy-in-Turkey-marriott-international_1755126611028.webp";
 import foraThumbnail from "@assets/Foraplatformimage_1755128532856.jpg";
+import revolutThumbnail from "@assets/generated_images/Revolut_fintech_news_thumbnail_f0ecdbed.png";
 
 export function ExperienceSection() {
   const experiences = [
@@ -13,6 +14,11 @@ export function ExperienceSection() {
       title: "0 --> 1 Travel Advisor Booking Platform",
       description:
         "Built a modern advisor booking platform aggregating 100k+ hotels with real-time perks/commission visibility, and launched Vault to securely collect/store client payment details and streamline payouts. Shipped adoption loops and analytics to scale usage across the advisor community.",
+    },
+    {
+      title: "Highest cashback in Europe ever with Revolut",
+      description:
+        "Created a new commerce vertical inside a fintech super-app, owning product, P&L, GTM, and analytics. Launched in pilot market, iterated pricing/funnel to early profitability, and proved a new revenue stream at scale.",
     },
   ];
 
@@ -87,6 +93,37 @@ export function ExperienceSection() {
                         </div>
                         <p className="text-sm text-gray-500 mt-1">
                           foratravel.com
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              )}
+              {index === 2 && (
+                <div className="mt-6">
+                  <a 
+                    href="https://www.finextra.com/newsarticle/41137/revolut-shops-launches-in-ireland-offering-three-percent-cashback-with-top-brands"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block border border-gray-200 rounded-lg p-4 hover:border-gray-300 hover:shadow-md transition-all duration-300 max-w-2xl"
+                  >
+                    <div className="flex items-start gap-4">
+                      <div className="flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden">
+                        <img 
+                          src={revolutThumbnail} 
+                          alt="Revolut article thumbnail" 
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-start justify-between gap-2">
+                          <h4 className="text-base font-medium text-gray-900 leading-snug">
+                            Revolut Shops launches in Ireland, offering three percent cashback with top brands
+                          </h4>
+                          <ExternalLink className="flex-shrink-0 w-4 h-4 text-gray-400 mt-1" />
+                        </div>
+                        <p className="text-sm text-gray-500 mt-1">
+                          finextra.com
                         </p>
                       </div>
                     </div>
