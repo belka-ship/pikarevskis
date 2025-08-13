@@ -7,8 +7,8 @@ export function ServicesSection() {
   ];
 
   return (
-    <section className="py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-16 px-7">
+      <div className="max-w-[920px] mx-auto">
         <h2 className="text-sm font-medium text-gray-500 uppercase tracking-wide mb-8">
           WHAT I CAN HELP WITH
         </h2>

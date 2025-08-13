@@ -4,10 +4,10 @@ import profileImage from "@assets/Vadim photo_1755113401263.jpeg";
 
 export function HeroSection() {
   return (
-    <section className="py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-16 px-7">
+      <div className="max-w-[920px] mx-auto">
         {/* Main hero content */}
-        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 mb-16">
+        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-7 mb-16">
           {/* Profile image - appears first on mobile */}
           <div className="flex-shrink-0 order-1 lg:order-2">
             <img
