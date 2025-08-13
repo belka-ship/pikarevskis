@@ -18,7 +18,7 @@ export function HeroSection() {
           </div>
           
           {/* Text content - appears second on mobile */}
-          <div className="flex-1 max-w-2xl order-2 lg:order-1 text-center lg:text-left">
+          <div className="flex-1 max-w-2xl order-2 lg:order-1 text-left">
             <h1 className="text-6xl lg:text-7xl xl:text-8xl font-bold text-black mb-6 leading-tight">
               Vadim Pikarevskis
             </h1>
@@ -29,7 +29,7 @@ export function HeroSection() {
             </div>
             
             {/* CTA and social buttons */}
-            <div className="flex items-center justify-center lg:justify-start gap-4">
+            <div className="flex items-center justify-start gap-4">
               <a 
                 href="https://calendly.com/vpikarevskis/30min"
                 target="_blank"
