@@ -1,7 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import skiftThumbnail from "@assets/Rendering-of-Aloft-istanbul-Karakoy-in-Turkey-marriott-international_1755126611028.webp";
 import foraThumbnail from "@assets/Foraplatformimage_1755128532856.jpg";
-import revolutThumbnail from "@assets/generated_images/Revolut_fintech_news_thumbnail_f0ecdbed.png";
+import revolutThumbnail from "@assets/revolut-card-003_1755128950259.png";
 
 export function ExperienceSection() {
   const experiences = [
@@ -16,9 +16,9 @@ export function ExperienceSection() {
         "Built a modern advisor booking platform aggregating 100k+ hotels with real-time perks/commission visibility, and launched Vault to securely collect/store client payment details and streamline payouts. Shipped adoption loops and analytics to scale usage across the advisor community.",
     },
     {
-      title: "Highest cashback in Europe ever with Revolut",
+      title: "Highest Cashback in Europe Ever with Revolut",
       description:
-        "Created a new commerce vertical inside a fintech super-app, owning product, P&L, GTM, and analytics. Launched in pilot market, iterated pricing/funnel to early profitability, and proved a new revenue stream at scale.",
+        "Launched a new commerce vertical inside a fintech super-app, owning product, P&L, GTM, and analytics. Launched in pilot market, iterated cashback model to early profitability, and proved a new revenue stream at scale.",
     },
   ];
 
