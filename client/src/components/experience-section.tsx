@@ -1,16 +1,16 @@
 import { ExternalLink } from "lucide-react";
 import skiftThumbnail from "@assets/Rendering-of-Aloft-istanbul-Karakoy-in-Turkey-marriott-international_1755126611028.webp";
-import foraThumbnail from "@assets/generated_images/Fora_Travel_booking_platform_989178ad.png";
+import foraThumbnail from "@assets/Foraplatformimage_1755128532856.jpg";
 
 export function ExperienceSection() {
   const experiences = [
     {
-      title: "Business travel management platform by Marriott",
+      title: "Business Travel Management Platform by Marriott",
       description:
         "Led the supplier-platform integrations powering Business Access by Marriott Bonvoy, Marriott’s new SMB travel booking portal. Delivered a direct-connect experience with Marriott’s full portfolio, discounted SMB rates and Bonvoy benefits - plus flights, rail, and car bookings. Launched globally - Marriott’s first hotel program built on Spotnana’s Travel-as-a-Service infrastructure.",
     },
     {
-      title: "Fora - Integrated Booking Platform & Vault",
+      title: "0 --> 1 Travel Advisor Booking Platform",
       description:
         "Built a modern advisor booking platform aggregating 100k+ hotels with real-time perks/commission visibility, and launched Vault to securely collect/store client payment details and streamline payouts. Shipped adoption loops and analytics to scale usage across the advisor community.",
     },
