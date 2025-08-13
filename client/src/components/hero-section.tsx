@@ -1,4 +1,4 @@
-import { Linkedin, Instagram, Mail } from "lucide-react";
+import { Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profileImage from "@assets/Vadim photo_1755113401263.jpeg";
 
@@ -43,29 +43,15 @@ export function HeroSection() {
                 </Button>
               </a>
               
-              {/* Social icons */}
+              {/* Social icon */}
               <div className="flex gap-3">
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/vpikarevskis/"
                   className="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center justify-center transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Linkedin className="w-5 h-5 text-gray-600" />
-                </a>
-                <a
-                  href="https://instagram.com/dobry"
-                  className="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center justify-center transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Instagram className="w-5 h-5 text-gray-600" />
-                </a>
-                <a
-                  href="mailto:contact@doronichev.com"
-                  className="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center justify-center transition-colors"
-                >
-                  <Mail className="w-5 h-5 text-gray-600" />
                 </a>
               </div>
             </div>
