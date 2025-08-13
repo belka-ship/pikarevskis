@@ -1,9 +1,9 @@
 export function ExperienceSection() {
   const experiences = [
     {
-      title: "Founder & CEO, Optic",
+      title: "Senior Manager, Spotnana",
       description:
-        "Building AI-native biopharma. Raised $12M from Kleiner Perkins and Greylock. Trusted by Stanford, Puretech, Southern Research, Innoviva, UNC, and more.",
+        "Led supplier-platform direct integration work to power Marriott’s SMB corporate travel booking portal , delivering full inventory and benefit parity outside traditional travel distribution channels",
     },
     {
       title: "Director of Product, Google",
@@ -16,7 +16,7 @@ export function ExperienceSection() {
     <section className="py-16 px-7">
       <div className="max-w-[920px] mx-auto">
         <h2 className="text-xl font-medium text-gray-500 uppercase tracking-wide mb-12">
-          EXPERIENCE
+          RECENT PRODUCT LAUNCHES
         </h2>
         <div className="space-y-12">
           {experiences.map((experience, index) => (
