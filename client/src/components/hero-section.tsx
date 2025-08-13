@@ -12,8 +12,8 @@ export function HeroSection() {
           <div className="flex-shrink-0 order-1 lg:order-2">
             <img
               src={profileImage}
-              alt="Andrey Doronichev"
-              className="w-48 h-48 lg:w-56 lg:h-56 rounded-full object-cover shadow-lg"
+              alt="Vadim Pikarevskis"
+              className="w-40 h-40 rounded-full object-cover shadow-lg"
             />
           </div>
           
