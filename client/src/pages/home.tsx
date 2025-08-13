@@ -13,7 +13,7 @@ export default function Home() {
         <ExperienceSection />
       </main>
       <footer className="py-8 px-7">
-        <div className="max-w-[920px] mx-auto text-center">
+        <div className="max-w-[920px] mx-auto text-left">
           <p className="text-sm text-gray-500">
             © Building a better world. For everyone.
           </p>
