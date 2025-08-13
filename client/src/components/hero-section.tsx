@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import profileImage from "@assets/Vadim photo_1755113401263.jpeg";
 import primeVideoLogo from "../prime-video-logo.png";
 import revolutLogo from "../revolut-logo.png";
-import foraLogo from "../fora-logo.png";
+import marriottLogo from "../marriott-logo.png";
 
 export function HeroSection() {
   return (
@@ -79,8 +79,8 @@ export function HeroSection() {
             className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
           <img
-            src={foraLogo}
-            alt="Fora"
+            src={marriottLogo}
+            alt="Marriott Bonvoy"
             className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
         </div>
