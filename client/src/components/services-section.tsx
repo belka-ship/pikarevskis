@@ -16,7 +16,7 @@ export function ServicesSection() {
         </h2>
         <div className="space-y-2">
           {services.map((service, index) => (
-            <div key={index} className="text-lg text-black font-medium leading-tight">
+            <div key={index} className="text-lg text-gray-700 leading-relaxed">
               {service}
             </div>
           ))}
