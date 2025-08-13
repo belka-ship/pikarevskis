@@ -75,7 +75,7 @@ export function HeroSection() {
           <img
             src={primeVideoLogo}
             alt="Prime Video"
-            className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
+            className="h-10 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
           <img
             src={revolutLogo}
