@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import profileImage from "@assets/Vadim photo_1755113401263.jpeg";
 import primeVideoLogo from "../prime-video-logo.png";
 import revolutLogo from "../revolut-logo.png";
+import foraLogo from "../fora-logo.png";
 
 export function HeroSection() {
   return (
@@ -77,9 +78,11 @@ export function HeroSection() {
             alt="Revolut"
             className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
-          <div className="text-gray-400 font-medium text-lg tracking-wide">
-            greylock
-          </div>
+          <img
+            src={foraLogo}
+            alt="Fora"
+            className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
+          />
         </div>
       </div>
     </section>
