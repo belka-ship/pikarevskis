@@ -30,12 +30,18 @@ export function HeroSection() {
             
             {/* CTA and social buttons */}
             <div className="flex items-center justify-center lg:justify-start gap-4">
-              <Button 
-                size="lg" 
-                className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 text-base font-medium rounded-lg"
+              <a 
+                href="https://calendly.com/vpikarevskis/30min"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Book consulting
-              </Button>
+                <Button 
+                  size="lg" 
+                  className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 text-base font-medium rounded-lg"
+                >
+                  Book a consultation
+                </Button>
+              </a>
               
               {/* Social icons */}
               <div className="flex gap-3">
