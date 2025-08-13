@@ -19,7 +19,7 @@ export function HeroSection() {
           
           {/* Text content - appears second on mobile */}
           <div className="flex-1 max-w-2xl order-2 lg:order-1 text-left">
-            <h1 className="text-6xl lg:text-7xl xl:text-8xl font-bold text-black mb-6 leading-tight">
+            <h1 className="text-[42px] leading-[1.05] font-bold text-[#0a0a0a] mb-2 tracking-[-0.02em] mx-[-2px]">
               Vadim Pikarevskis
             </h1>
             <div className="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
