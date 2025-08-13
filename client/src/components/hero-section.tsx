@@ -1,9 +1,9 @@
-import { Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profileImage from "@assets/Vadim photo_1755113401263.jpeg";
 import primeVideoLogo from "../prime-video-logo.png";
 import revolutLogo from "../revolut-logo.png";
 import marriottLogo from "../marriott-logo.png";
+import linkedinIcon from "../linkedin-icon.png";
 
 export function HeroSection() {
   return (
@@ -54,7 +54,11 @@ export function HeroSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Linkedin className="w-5 h-5 text-gray-600" />
+                  <img 
+                    src={linkedinIcon} 
+                    alt="LinkedIn" 
+                    className="w-5 h-5"
+                  />
                 </a>
               </div>
             </div>
