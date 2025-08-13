@@ -1,5 +1,6 @@
 import { ExternalLink } from "lucide-react";
 import skiftThumbnail from "@assets/Rendering-of-Aloft-istanbul-Karakoy-in-Turkey-marriott-international_1755126611028.webp";
+import foraThumbnail from "@assets/generated_images/Fora_Travel_booking_platform_989178ad.png";
 
 export function ExperienceSection() {
   const experiences = [
@@ -55,6 +56,37 @@ export function ExperienceSection() {
                         </div>
                         <p className="text-sm text-gray-500 mt-1">
                           skift.com
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              )}
+              {index === 1 && (
+                <div className="mt-6">
+                  <a 
+                    href="https://www.foratravel.com/the-journal/introducing-foras-integrated-booking-platform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block border border-gray-200 rounded-lg p-4 hover:border-gray-300 hover:shadow-md transition-all duration-300 max-w-2xl"
+                  >
+                    <div className="flex items-start gap-4">
+                      <div className="flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden">
+                        <img 
+                          src={foraThumbnail} 
+                          alt="Fora Travel article thumbnail" 
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-start justify-between gap-2">
+                          <h4 className="text-base font-medium text-gray-900 leading-snug">
+                            Introducing Fora's Integrated Booking Platform: the Next Big Thing in Fora Advisor Tooling
+                          </h4>
+                          <ExternalLink className="flex-shrink-0 w-4 h-4 text-gray-400 mt-1" />
+                        </div>
+                        <p className="text-sm text-gray-500 mt-1">
+                          foratravel.com
                         </p>
                       </div>
                     </div>
