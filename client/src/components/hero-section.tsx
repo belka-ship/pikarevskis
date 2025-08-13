@@ -23,9 +23,9 @@ export function HeroSection() {
               Vadim Pikarevskis
             </h1>
             <div className="text-[20px] leading-[1.55] text-[#6b7280] mb-6 mt-[6px]">
-              <p className="mb-0">Scaled impact for hundreds of millions of users at Amazon.</p>
+              <p className="mb-0">Built 100M+ user products at Amazon.</p>
               <p className="mb-0">Turned ideas into profitable products at startups.</p>
-              <p className="mb-0">Today I help mission-driven teams.</p>
+              <p className="mb-0">Now I help mission-driven teams with product strategy and execution.</p>
             </div>
             
             {/* CTA and social buttons */}
@@ -61,8 +61,8 @@ export function HeroSection() {
         {/* Company logos */}
         <div className="flex flex-wrap items-center justify-center lg:justify-start gap-8 lg:gap-12 opacity-60">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
-            alt="Google"
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+            alt="Amazon"
             className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
           <img
