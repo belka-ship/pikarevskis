@@ -23,7 +23,7 @@ export function ExperienceSection() {
   ];
 
   return (
-    <section className="py-16 px-7">
+    <section className="pt-2 pb-16 px-7">
       <div className="max-w-[920px] mx-auto">
         <h2 className="text-xl font-medium text-gray-500 uppercase tracking-wide mb-12">
           MY PRODUCT LAUNCHES
