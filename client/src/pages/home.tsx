@@ -12,6 +12,13 @@ export default function Home() {
         <ServicesSection />
         <ExperienceSection />
       </main>
+      <footer className="py-8 px-7">
+        <div className="max-w-[920px] mx-auto text-center">
+          <p className="text-sm text-gray-500">
+            © Building a better world. For everyone.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
