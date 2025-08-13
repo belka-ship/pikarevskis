@@ -1,5 +1,6 @@
 import { Linkedin, Instagram, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profileImage from "@assets/Vadim photo_1755113401263.jpeg";
 
 export function HeroSection() {
   return (
@@ -10,7 +11,7 @@ export function HeroSection() {
           {/* Profile image - appears first on mobile */}
           <div className="flex-shrink-0 order-1 lg:order-2">
             <img
-              src="/attached_assets/Vadim photo_1755113401263.jpeg"
+              src={profileImage}
               alt="Andrey Doronichev"
               className="w-48 h-48 lg:w-56 lg:h-56 rounded-full object-cover shadow-lg"
             />
