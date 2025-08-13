@@ -80,7 +80,7 @@ export function HeroSection() {
           <img
             src={revolutLogo}
             alt="Revolut"
-            className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
+            className="h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
           <img
             src={marriottLogo}
