@@ -81,7 +81,7 @@ export function HeroSection() {
           <img
             src={marriottLogo}
             alt="Marriott Bonvoy"
-            className="h-10 w-auto grayscale hover:grayscale-0 transition-all duration-300"
+            className="h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
         </div>
       </div>
