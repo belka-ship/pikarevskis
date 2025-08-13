@@ -7,7 +7,7 @@ export function HeroSection() {
     <section className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Main hero content */}
-        <div className="flex flex-col lg:flex-row items-center lg:items-center justify-between gap-8 mb-16">
+        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 mb-16">
           {/* Profile image - appears first on mobile */}
           <div className="flex-shrink-0 order-1 lg:order-2">
             <img
@@ -24,7 +24,7 @@ export function HeroSection() {
             </h1>
             <div className="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
               <p className="mb-2">Scaled impact for hundreds of millions of users at Amazon.</p>
-              <p className="mb-2">Turned startup ideas into profitable products.</p>
+              <p className="mb-2">Turned ideas into profitable products at startups.</p>
               <p className="mb-2">Today I help mission-driven teams.</p>
             </div>
             
