@@ -1,6 +1,7 @@
 import { Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profileImage from "@assets/Vadim photo_1755113401263.jpeg";
+import primeVideoLogo from "../prime-video-logo.png";
 
 export function HeroSection() {
   return (
@@ -66,7 +67,7 @@ export function HeroSection() {
             className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
           <img
-            src="/attached_assets/generated_images/Prime_Video_logo_design_23dcf349.png"
+            src={primeVideoLogo}
             alt="Prime Video"
             className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
