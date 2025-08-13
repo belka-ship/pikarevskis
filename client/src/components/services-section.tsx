@@ -1,9 +1,11 @@
 export function ServicesSection() {
   const services = [
-    "Building high-performing product teams",
-    "Developing product and AI strategies", 
+    "Building high-performing product teams and processes",
+    "Developing product and AI strategies and roadmaps", 
+    "Hands on support including user research, PRDs, prototypes, analytics",
+    "End-to-end product development - UX reviews,  engineering and QA processes",
+    "Go-to-Market Strategy",
     "Career coaching for PMs",
-    "Fundraising for startups",
   ];
 
   return (
@@ -14,7 +16,7 @@ export function ServicesSection() {
         </h2>
         <div className="space-y-4">
           {services.map((service, index) => (
-            <div key={index} className="text-xl lg:text-2xl text-black font-medium">
+            <div key={index} className="text-[20px] leading-[1.55] text-[#6b7280] font-normal">
               {service}
             </div>
           ))}
