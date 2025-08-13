@@ -6,9 +6,18 @@ export function HeroSection() {
     <section className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Main hero content */}
-        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 mb-16">
-          {/* Left side - Text content */}
-          <div className="flex-1 max-w-2xl">
+        <div className="flex flex-col lg:flex-row items-center lg:items-center justify-between gap-8 mb-16">
+          {/* Profile image - appears first on mobile */}
+          <div className="flex-shrink-0 order-1 lg:order-2">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
+              alt="Andrey Doronichev"
+              className="w-48 h-48 lg:w-56 lg:h-56 rounded-full object-cover shadow-lg"
+            />
+          </div>
+          
+          {/* Text content - appears second on mobile */}
+          <div className="flex-1 max-w-2xl order-2 lg:order-1 text-center lg:text-left">
             <h1 className="text-6xl lg:text-7xl xl:text-8xl font-bold text-black mb-6 leading-tight">
               Andrey Doronichev
             </h1>
@@ -18,7 +27,7 @@ export function HeroSection() {
             </div>
             
             {/* CTA and social buttons */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center lg:justify-start gap-4">
               <Button 
                 size="lg" 
                 className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 text-base font-medium rounded-lg"
@@ -52,15 +61,6 @@ export function HeroSection() {
                 </a>
               </div>
             </div>
-          </div>
-          
-          {/* Right side - Profile image */}
-          <div className="flex-shrink-0">
-            <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
-              alt="Andrey Doronichev"
-              className="w-48 h-48 lg:w-56 lg:h-56 rounded-full object-cover shadow-lg"
-            />
           </div>
         </div>
         
