@@ -10,7 +10,7 @@ export function HeroSection() {
           {/* Profile image - appears first on mobile */}
           <div className="flex-shrink-0 order-1 lg:order-2">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
+              src="/attached_assets/Vadim photo_1755113401263.jpeg"
               alt="Andrey Doronichev"
               className="w-48 h-48 lg:w-56 lg:h-56 rounded-full object-cover shadow-lg"
             />
@@ -19,11 +19,12 @@ export function HeroSection() {
           {/* Text content - appears second on mobile */}
           <div className="flex-1 max-w-2xl order-2 lg:order-1 text-center lg:text-left">
             <h1 className="text-6xl lg:text-7xl xl:text-8xl font-bold text-black mb-6 leading-tight">
-              Andrey Doronichev
+              Vadim Pikarevskis
             </h1>
             <div className="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
-              <p className="mb-2">Built billion-user products at Google.</p>
-              <p>Now building an AI-native biopharma company.</p>
+              <p className="mb-2">Scaled impact for hundreds of millions of users at Amazon.</p>
+              <p className="mb-2">Turned startup ideas into profitable products.</p>
+              <p className="mb-2">Today I help mission-driven teams.</p>
             </div>
             
             {/* CTA and social buttons */}
