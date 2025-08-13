@@ -28,7 +28,7 @@ export function HeroSection() {
             <div className="text-[20px] leading-[1.55] text-[#6b7280] mb-6 mt-[6px]">
               <p className="mb-0">Built 100M+ user products at Amazon.</p>
               <p className="mb-0">Turned ideas into profitable products at startups.</p>
-              <p className="mb-0">Now I help mission-driven teams with product strategy and execution.</p>
+              <p className="mb-0">I help mission-driven teams with product strategy and execution.</p>
             </div>
             
             {/* CTA and social buttons */}
