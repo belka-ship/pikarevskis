@@ -22,10 +22,10 @@ export function HeroSection() {
             <h1 className="text-[42px] leading-[1.05] font-bold text-[#0a0a0a] mb-2 tracking-[-0.02em] mx-[-2px]">
               Vadim Pikarevskis
             </h1>
-            <div className="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
-              <p className="mb-2">Scaled impact for hundreds of millions of users at Amazon.</p>
-              <p className="mb-2">Turned ideas into profitable products at startups.</p>
-              <p className="mb-2">Today I help mission-driven teams.</p>
+            <div className="text-[20px] leading-[1.55] text-[#6b7280] mb-6 mt-[6px]">
+              <p className="mb-0">Scaled impact for hundreds of millions of users at Amazon.</p>
+              <p className="mb-0">Turned ideas into profitable products at startups.</p>
+              <p className="mb-0">Today I help mission-driven teams.</p>
             </div>
             
             {/* CTA and social buttons */}
