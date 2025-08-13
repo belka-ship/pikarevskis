@@ -2,7 +2,7 @@ export function ServicesSection() {
   const services = [
     "Building high-performing product teams and processes",
     "Developing product and AI strategies and roadmaps", 
-    "Hands-on support including user research, PRDs, AI prototyping, analytics",
+    "Hands-on support with user research, PRDs, AI prototyping, analytics",
     "End-to-end product development - UX reviews,  engineering and QA processes",
     "Go-to-Market Strategy",
     "Career coaching for PMs",
