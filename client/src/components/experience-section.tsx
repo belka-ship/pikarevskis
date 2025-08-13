@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import skiftThumbnail from "@assets/generated_images/Skift_news_article_thumbnail_4c479ab8.png";
 
 export function ExperienceSection() {
   const experiences = [
@@ -38,8 +39,12 @@ export function ExperienceSection() {
                     className="block border border-gray-200 rounded-lg p-4 hover:border-gray-300 hover:shadow-md transition-all duration-300 max-w-2xl"
                   >
                     <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0 w-20 h-20 bg-gray-100 rounded-lg flex items-center justify-center">
-                        <div className="text-2xl font-bold text-gray-400">S</div>
+                      <div className="flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden">
+                        <img 
+                          src={skiftThumbnail} 
+                          alt="Skift article thumbnail" 
+                          className="w-full h-full object-cover"
+                        />
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-start justify-between gap-2">
