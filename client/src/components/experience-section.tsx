@@ -1,5 +1,5 @@
 import { ExternalLink } from "lucide-react";
-import skiftThumbnail from "@assets/generated_images/Skift_news_article_thumbnail_4c479ab8.png";
+import skiftThumbnail from "@assets/Rendering-of-Aloft-istanbul-Karakoy-in-Turkey-marriott-international_1755126611028.webp";
 
 export function ExperienceSection() {
   const experiences = [
