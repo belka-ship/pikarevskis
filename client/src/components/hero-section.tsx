@@ -65,9 +65,11 @@ export function HeroSection() {
             alt="Amazon"
             className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
           />
-          <div className="text-gray-400 font-medium text-lg tracking-wide">
-            PRIME VIDEO
-          </div>
+          <img
+            src="/attached_assets/generated_images/Prime_Video_logo_design_23dcf349.png"
+            alt="Prime Video"
+            className="h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
+          />
           <div className="text-gray-400 font-medium text-lg tracking-wide">
             KLEINER PERKINS
           </div>
