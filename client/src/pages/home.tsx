@@ -15,7 +15,7 @@ export default function Home() {
       <footer className="py-8 px-7">
         <div className="max-w-[920px] mx-auto text-left">
           <p className="text-sm text-gray-500">
-            © Building a better world. For everyone.
+            © Clarity in Product Strategy. Discipline in Execution.
           </p>
         </div>
       </footer>
