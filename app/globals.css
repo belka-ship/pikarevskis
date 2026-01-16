@@ -68,32 +68,3 @@ body {
 .text-balance {
   text-wrap: balance;
 }
-
-:root {
-  --background: hsl(0, 0%, 98%);
-  --foreground: hsl(0, 0%, 4%);
-  --card: hsl(0, 0%, 97%);
-  --card-foreground: hsl(0, 0%, 0%);
-  --popover: hsl(0, 0%, 100%);
-  --popover-foreground: hsl(0, 0%, 0%);
-  --primary: hsl(0, 0%, 0%);
-  --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(0, 0%, 40%);
-  --secondary-foreground: hsl(0, 0%, 0%);
-  --muted: hsl(0, 0%, 97%);
-  --muted-foreground: hsl(0, 0%, 40%);
-  --accent: hsl(214, 100%, 40%);
-  --accent-foreground: hsl(0, 0%, 100%);
-  --destructive: hsl(0, 84%, 60%);
-  --destructive-foreground: hsl(0, 0%, 100%);
-  --border: hsl(0, 0%, 90%);
-  --input: hsl(0, 0%, 97%);
-  --ring: hsl(214, 100%, 40%);
-  --radius: 0.5rem;
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-}
