@@ -36,14 +36,14 @@ const projects = [
     title: "BasedAI",
     description:
       "Privacy-first AI agent integrated directly into Web3 wallets.",
-    url: "https://basedai.replit.app/",
+    url: "https://base-echo-bot.vercel.app/",
   },
   {
     number: "04",
     title: "Travel Loom",
     description:
       "AI Assistant for luxury travel advisors. Uses Retrieval-Augmented Generation (RAG) to deliver hyper-personalized, verifiable itineraries.",
-    url: "https://travel-loom-vpikarevskis.replit.app/",
+    url: "https://travel-loom.vercel.app/",
   },
   {
     number: "05",
