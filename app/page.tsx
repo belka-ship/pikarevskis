@@ -21,7 +21,7 @@ const projects = [
     number: "01",
     title: "ArcaSave",
     description:
-      "High-yield stablecoin savings app. Architected entirely through AI-driven development workflows.",
+      "High-yield stablecoin savings app and embedded AI travel agent. Architected entirely through AI-driven development workflows.",
     url: "https://arcasave.com/",
   },
   {
@@ -58,7 +58,7 @@ const experience = [
   {
     company: "ArcaSave",
     role: "Founder",
-    impact: "Shipped live stablecoin yield app using AI-native workflows.",
+    impact: "Shipped live stablecoin yield app with embedded AI travel agent.",
   },
   {
     company: "Spotnana",
@@ -116,8 +116,8 @@ export default function Home() {
             className="font-sans text-lg md:text-xl text-gray-600 max-w-xl mb-16 leading-relaxed"
             variants={fadeIn}
           >
-            I build beautiful, simple financial products that abstract away the
-            complexity of blockchain infrastructure.
+            I build beautiful, simple financial and travel products that abstract away the
+            complexity of legacy infrastructure.
           </motion.p>
 
           <motion.div className="flex gap-8 md:gap-12" variants={fadeIn}>
